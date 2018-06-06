@@ -10,10 +10,10 @@ public class prEjercicio05 {
     Scanner teclado = new Scanner(System.in);
     
     System.out.print("Introduce un número: ");
-    int num1 = Integer.parseInt(teclado.nextLine());
+    int num1 = teclado.nextInt();
 
     System.out.print("Introduce otro número: ");
-    int num2 = Integer.parseInt(teclado.nextLine());
+    int num2 = teclado.nextInt();
     
     if (num2 % num1 == 0) {
       System.out.println("El primer número es divisor del segundo número");
