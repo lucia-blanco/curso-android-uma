@@ -26,6 +26,6 @@ public class prEjercicio11 {
       esPrimo = true;
     } while (num != 0);
 
-    System.out.println("La suma de los números primos introducidos es " +  sum);
+    System.out.println("La suma de los números primos introducidos es " + sum);
   }
 }
