@@ -8,10 +8,11 @@ import java.util.Scanner;
 public class Adicional {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int num = 29;
+        int num = 28;
         boolean encontrado = false;
 
         while (!encontrado){
+            num++;
             int suma = 0;
             for (int i = 1; i <=(num/2); i++) {
                 if (num%i == 0){
@@ -21,7 +22,6 @@ public class Adicional {
             if (suma == num) {
                 encontrado = true;
             }
-            num++;
         }
         System.out.println(num + " es un número perfecto.");
     }
