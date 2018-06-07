@@ -1,10 +1,10 @@
-# Curso Android UMA
+# :iphone: Curso Android UMA
 Ejercicios del Curso de Extensión Universitaria de Desarrollo de Aplicaciones para Dispositivos Android.
 
 ## Índice
-### [Modulo 1](#mod1)  
-   + [Relación preliminar](#relpre)   
-   + [Relación 1](#rel01)  
+### :file_folder: [Modulo 1](https://github.com/lucia-blanco/curso-android-uma/tree/master/Modulo%201/)  
+   ##### :page_facing_up: [Relación preliminar](#relpre)   
+   ##### :page_facing_up: [Relación 1](#rel01)  
 
 <a name = "mod1"/>
 
