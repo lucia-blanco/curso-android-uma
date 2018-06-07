@@ -10,11 +10,23 @@ public class E8R1 {
         Scanner teclado = new Scanner(System.in);
 
         System.out.print("Introduce una cantidad de segundos: ");
-        double num = Double.parseDouble(teclado.nextLine());
+        double sec = Double.parseDouble(teclado.nextLine());
 
-        int entero = (int)(num);
-        double decimal = num - entero;
-        System.out.println("Parte entera: " + entero);
-        System.out.println("Parte decimal: " + decimal);
+        double week = (double)(sec)/(60*60*24*7);
+        double aux = week - (int)(week);
+        week = (int)week;
+        double day = aux * 7;
+        aux = day - (int)day;
+        day = (int)day;
+        double hour = aux * 24;
+        aux = hour - (int)hour;
+        hour = (int)hour;
+        double min = aux * 60;
+        aux = min - (int)min;
+        min = (int)min;
+        sec = aux * 60;
+
+        System.out.println("Week: " + week + " day: " + day + " hour: " + hour + " min: " + min + " sec: " + sec);
+
     }
 }
