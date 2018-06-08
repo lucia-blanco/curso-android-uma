@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Adicional {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        int num = 2;
+        int num = 28;
+
         boolean encontrado = false;
 
         while (!encontrado){
