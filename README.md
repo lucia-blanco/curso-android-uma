@@ -6,6 +6,9 @@ Ejercicios del Curso de Extensión Universitaria de Desarrollo de Aplicaciones p
    ##### :page_facing_up: [Relación preliminar](#relpre)   
    ##### :page_facing_up: [Relación 1](#rel01)  
    ##### :page_facing_up: [Relación 3](#rel03)
+   ##### :page_facing_up: [Relación 4](#rel04)
+   ##### :page_facing_up: [Relación 5](#rel05)
+   ##### :page_facing_up: [Relación 7](#rel07)
 
 <a name = "mod1"/>
 
@@ -50,14 +53,14 @@ Además si el precio total (precio de las unidades + IVA) es mayor de 300 €, s
 
 ### [Relación 4](https://github.com/lucia-blanco/curso-android-uma/tree/master/Modulo%201/Relaci%C3%B3n%204)  
 
-####Parte 1  
+#### Parte 1  
 [05.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E05R4.java) Diseña un algoritmo que lea un número entero n por teclado (distinto de 0). Después el usuario introducirá por teclado una secuencia de números enteros. El algoritmo debe
 determinar si el número n aparece o no en la secuencia.  
 [06.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E06R4.java) Diseña un programa que lea una sucesión de números terminada en 0 y muestre la suma de los restos de dividir por 8 cada uno de los números de la sucesión.  
 [07.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E07R4.java) Diseña un programa que lea un único número natural por teclado en una variable de tipo int y muestre por pantalla cuantos dígitos pares tiene.  
 [08.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E08R4.java) En una fábrica de coches se desea calcular el precio medio de un número de modelos de coche, leído desde teclado. Se pide dado un numero de modelos de coche, introducir el precio (en euros) de cada modelo de coche (para esto usaremos una estructura iterativa) y posteriormente calcular el precio medio de los modelos.  
 
-####Parte 2  
+#### Parte 2  
 [09.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E09R4.java) Diseña un programa que muestre por pantalla un tablero de ajedrez, donde las posiciones blancas serán mostradas con el carácter ‘B’ y las posiciones negras serán mostradas con el carácter ‘N’. Un tablero de ajedrez tiene 8 filas y 8 columnas.  
 [10.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%204/E10R4.java) La constante matemática pi puede ser calculada con la siguiente fórmula:  
 pi = 4 * (2/3) * (4/3) * (4/5) * (6/5) * (6/7) *...  
@@ -77,7 +80,7 @@ En las condiciones del problema, es posible desarrollar un algoritmo para que si
 
 ### [Relación 5](https://github.com/lucia-blanco/curso-android-uma/tree/master/Modulo%201/Relaci%C3%B3n%205)  
 
-####Parte 1  
+#### Parte 1  
 [00.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E0R5.java) Números combinatorios.  
 [01.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E01R5.java) Escribe un programa que imprima una pirámide de dígitos, tomando
 como entrada por teclado el número de filas de la misma (debe ser menor de 10).  
@@ -88,7 +91,7 @@ rombo de asteriscos.
 dicho número.  
 [05.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E05R5.java) Dado un número natural, lo sumamos con su reverso. Si esta suma es un palíndromo, entonces paramos; y si no, repetimos el proceso con el número obtenido de dicha suma, hasta dar con un palíndromo. Si inicialmente el número del que partimos ya es palíndromo, no se hace nada.  
 
-####Parte 2  
+#### Parte 2  
 [06.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E06R5.java) Escribe un programa que tome como entrada desde teclado dos números naturales (mayores que cero) "N" e "i", e imprima en pantalla el dígito que ocupa la posición i-ésima del número N. Si i es mayor que el número de dígitos de N, se escribirá en pantalla -1.  
 [07.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E07R5.java) Escribe un programa que acepte como entrada desde teclado un número natural mayor que cero y dé como salida el resultado de sumar dos a dos los dígitos que aparecen en posiciones simétricas respecto al dígito central dentro del número dado como entrada.  
 [08.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%205/E08R5.java) La conjetura de Goldbach dice que todo número par mayor que 2 tiene la propiedad de que es la suma de dos números primos. Diseña un algoritmo que compruebe si dicha conjetura es cierta para todos los números pares comprendidos entre dos números leídos por teclado.  
@@ -99,7 +102,7 @@ dicho número.
 
 ### [Relación 7](https://github.com/lucia-blanco/curso-android-uma/tree/master/Modulo%201/Relaci%C3%B3n%207)  
 
-####Parte 1  
+#### Parte 1  
 [01.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%207/E01R7.java) Desarrolla una función mayor que tome como parámetro de entrada un array totalmente relleno de valores enteros y devuelva como resultado el valor mayor contenido en dicho array. Crea también una función leer que reciba como parámetro un objeto Scanner asociado al teclado, lea del mismo una colección de MAX (una constante, por ejemplo 10) números enteros y devuelva un array conteniendo dichos números. Crea también una función main para comprobar el correcto funcionamiento de las dos funciones anteriores.  
 [02.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%207/E02R7.java) Diseña una función está que recibe como parámetros de entrada un array de números enteros a y un número entero num, y devuelve true si el número num está contenido en a, y false en otro caso. Crea otra función leer que reciba como parámetro un objeto Scanner asociado al teclado, le pida al usuario la cantidad de números a leer, lea la colección de números enteros y devuelva un array conteniendo dichos números. Por último, diseña la función main para comprobar el correcto funcionamiento de las dos funciones anteriores.  
 [03.](https://github.com/lucia-blanco/curso-android-uma/blob/master/Modulo%201/Relaci%C3%B3n%207/E03R7.java) Se dispone de un array de números enteros en el que al menos hay dos números que son iguales y dos que son distintos. Obtenga una función mayorMinimo que tomando como parámetro dicho array, devuelva un elemento del array que sea mayor que el mínimo de éste. Crea otra función leer que reciba como parámetro un objeto Scanner asociado al teclado, lea del mismo una colección de números enteros (hasta que el usuario introduzca un 0) y devuelva un array conteniendo dichos números. Crea también una función main para comprobar el correcto funcionamiento de las dos funciones anteriores.  
